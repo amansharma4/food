@@ -5,7 +5,7 @@ import Recipes from "./components/Recipes";
 import Axios from "axios";
 
 function App() {
-  const [search, setSerach] = useState("chiken");
+  const [search, setSerach] = useState("");
   const [recipes, setRecipes] = useState([]);
 
   const APP_ID = "1e96922a";
